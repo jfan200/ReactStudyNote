@@ -138,7 +138,7 @@ const App = () => {
                     <li className="nav-title">
                         <span className="nav-title-text">评论</span>
                         {/* 评论数量 */}
-                        <span className="total-reply">{10}</span>
+                        <span className="total-reply">{commentList.length}</span>
                     </li>
                     <li className="nav-sort">
                         {/* 高亮类名： active */}

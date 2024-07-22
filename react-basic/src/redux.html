@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redux basic example</title>
+    <script src="https://unpkg.com/redux@4.2.0/dist/redux.min.js"></script>
+</head>
+<body>
+    <div>
+        <button id='decrement'>-</button>
+        <span id='count'>0</span>
+        <button id='increment'>+</button>
+    </div>
+</body>
+
+<script>
+
+    //1. 定义reducer函数
+    //作用： 根据不同的action对象，返回不同的新的state
+    //state： 数据最开始状态
+    //action： 对象 type 标记当前想要做什么样的修改
+    function reducer(state = {count: 0}, action) {
+        switch (action.type){
+            case 'INCREMENT':
+                return {count: state.count+=1}
+            case 'DECREMENT':
+                return {count: state.count-=1}
+        }
+        return state
+    }
+
+    //2. 使用reducer函数生成store实例
+    const store = Redux.createStore(reducer)
+
+    //3. 通过store实例的subscribe订阅数据变化
+    store.subscribe(() => {
+        console.log('state变化了', store.getState())
+        document.getElementById('count').innerText = store.getState().count
+    })
+
+    //4. 通过store实例的dispatch函数提交action更改状态
+    const inBtn = document.getElementById('increment')
+    inBtn.addEventListener('click', () => {
+        // 增加
+        store.dispatch({
+            type:'INCREMENT'
+        })
+    })
+
+    const deBtn = document.getElementById('decrement')
+    deBtn.addEventListener('click', () => {
+        // 减少
+        store.dispatch({
+            type:'DECREMENT'
+        })
+    })
+
+    //5. 通过store实例的getState方法获取最新状态更新到视图中
+
+</script>

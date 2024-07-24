@@ -3,6 +3,7 @@
 # dependencies
 react-basic/node_modules
 react-redux/node_modules
+redux-meituan/node_modules
 .pnp
 .pnp.js
 
@@ -12,6 +13,7 @@ react-redux/node_modules
 # production
 react-basic/build
 react-redux/build
+redux-meituan/build
 
 # misc
 .DS_Store

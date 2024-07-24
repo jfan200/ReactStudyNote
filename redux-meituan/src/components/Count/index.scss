@@ -1,0 +1,60 @@
+.goods-count {
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+
+  .button {
+    display: inline-block;
+    width: 20px; /* 按钮宽度 */
+    height: 20px; /* 按钮高度 */
+    border-radius: 25%; /* 半圆角 */
+    border: 1px solid transparent; /* 可选：边框 */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 可选：阴影效果 */
+    cursor: pointer; /* 鼠标指针 */
+    position: relative; /* 相对定位，以便定位伪元素 */
+    margin: 5px; /* 按钮之间的间距 */
+  }
+  .plus {
+    background-color: rgb(255, 202, 0); /* 背景颜色 */
+    margin-left: 10px;
+  }
+  .minus {
+    border: 1px solid rgb(255, 202, 0);
+    margin-right: 10px;
+  }
+
+  .button::before, .button::after {
+    content: '';
+    position: absolute;
+    background-color: black; /* 图标颜色 */
+  }
+
+  .plus::before, .plus::after {
+    width: 50%;
+    height: 2px; /* 加号的横线和竖线 */
+  }
+
+  .plus::before {
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+  }
+
+  .plus::after {
+    height: 50%;
+    width: 2px;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+  }
+
+  .minus::before {
+    width: 50%;
+    height: 2px; /* 减号的横线 */
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+  }
+}

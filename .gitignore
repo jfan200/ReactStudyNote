@@ -3,6 +3,7 @@
 # dependencies
 react-basic/node_modules
 react-redux/node_modules
+react-router/node_modules
 redux-meituan/node_modules
 .pnp
 .pnp.js
@@ -13,6 +14,7 @@ redux-meituan/node_modules
 # production
 react-basic/build
 react-redux/build
+react-router/build
 redux-meituan/build
 
 # misc

@@ -1,0 +1,305 @@
+{
+  "ka": [
+    {
+      "type": "pay",
+      "money": -99,
+      "date": "2022-10-24 10:36:42",
+      "useFor": "drinks",
+      "id": "1"
+    },
+    {
+      "type": "pay",
+      "money": -88,
+      "date": "2022-10-24 10:37:51",
+      "useFor": "longdistance",
+      "id": "2"
+    },
+    {
+      "type": "income",
+      "money": 100,
+      "date": "2022-10-22 00:00:00",
+      "useFor": "bonus",
+      "id": "3"
+    },
+    {
+      "type": "pay",
+      "money": -33,
+      "date": "2022-09-24 16:15:41",
+      "useFor": "dessert",
+      "id": "4"
+    },
+    {
+      "type": "pay",
+      "money": -56,
+      "date": "2022-10-22T05:37:06.000Z",
+      "useFor": "drinks",
+      "id": "5"
+    },
+    {
+      "type": "pay",
+      "money": -888,
+      "date": "2022-10-28T08:21:42.135Z",
+      "useFor": "travel",
+      "id": "6"
+    },
+    {
+      "type": "income",
+      "money": 10000,
+      "date": "2023-03-20T06:45:54.004Z",
+      "useFor": "salary",
+      "id": "7"
+    },
+    {
+      "type": "pay",
+      "money": -10,
+      "date": "2023-03-22T07:17:12.531Z",
+      "useFor": "drinks",
+      "id": "8"
+    },
+    {
+      "type": "pay",
+      "money": -20,
+      "date": "2023-03-22T07:51:20.421Z",
+      "useFor": "dessert",
+      "id": "9"
+    },
+    {
+      "type": "pay",
+      "money": -100,
+      "date": "2023-03-22T09:18:12.898Z",
+      "useFor": "drinks",
+      "id": "17"
+    },
+    {
+      "type": "pay",
+      "money": -50,
+      "date": "2023-03-23T09:11:23.312Z",
+      "useFor": "food",
+      "id": "18"
+    },
+    {
+      "type": "pay",
+      "money": -100,
+      "date": "2023-04-04T03:03:15.617Z",
+      "useFor": "drinks",
+      "id": "19"
+    },
+    {
+      "type": "pay",
+      "money": -100,
+      "date": "2023-04-02T16:00:00.000Z",
+      "useFor": "food",
+      "id": "20"
+    },
+    {
+      "type": "income",
+      "money": 10000,
+      "date": "2024-08-28T16:00:00.000Z",
+      "useFor": "salary",
+      "id": "21"
+    },
+    {
+      "type": "pay",
+      "money": -10,
+      "date": "2024-08-22T07:17:12.531Z",
+      "useFor": "drinks",
+      "id": "22"
+    },
+    {
+      "type": "pay",
+      "money": -20,
+      "date": "2024-08-22T07:51:20.421Z",
+      "useFor": "dessert",
+      "id": "23"
+    },
+    {
+      "type": "pay",
+      "money": -100,
+      "date": "2024-08-22T09:18:12.898Z",
+      "useFor": "drinks",
+      "id": "24"
+    },
+    {
+      "id": "28df",
+      "type": "pay",
+      "money": 0,
+      "date": "2024-08-04T17:24:34.058Z",
+      "useFor": "other"
+    },
+    {
+      "id": "db03",
+      "type": "pay",
+      "money": -120,
+      "date": "2024-08-04T17:24:59.530Z",
+      "useFor": "food"
+    },
+    {
+      "id": "9f5f",
+      "type": "pay",
+      "money": -120,
+      "date": "2024-08-04T17:25:42.365Z",
+      "useFor": "drinks"
+    },
+    {
+      "id": "d64f",
+      "type": "pay",
+      "money": -120,
+      "date": "2024-08-04T17:28:17.038Z",
+      "useFor": "other"
+    },
+    {
+      "id": "6627",
+      "type": "pay",
+      "money": -200,
+      "date": "2024-08-22T16:55:50.596Z",
+      "useFor": "bag"
+    },
+    {
+      "id": "5dc9",
+      "type": "income",
+      "money": 200,
+      "date": "2024-08-22T16:56:12.423Z",
+      "useFor": "bonus"
+    },
+    {
+      "id": "6521",
+      "type": "pay",
+      "money": 0,
+      "date": "2024-08-22T16:59:46.769Z",
+      "useFor": "drinks"
+    },
+    {
+      "id": "e4e4",
+      "type": "pay",
+      "money": -200,
+      "date": "2024-08-22T17:09:30.281Z",
+      "useFor": "other"
+    },
+    {
+      "id": "7157",
+      "type": "pay",
+      "money": -200,
+      "date": "2024-08-22T17:09:30.281Z",
+      "useFor": "other"
+    },
+    {
+      "id": "d4b1",
+      "type": "income",
+      "money": 200,
+      "date": "2024-08-22T17:09:50.550Z",
+      "useFor": "other"
+    },
+    {
+      "id": "6e8d",
+      "type": "income",
+      "money": 22,
+      "date": "2024-08-22T17:12:26.083Z",
+      "useFor": "other"
+    },
+    {
+      "id": "f8d4",
+      "type": "income",
+      "money": 2222,
+      "date": "2024-08-22T17:12:47.443Z",
+      "useFor": "other"
+    },
+    {
+      "id": "bd52",
+      "type": "income",
+      "money": 123,
+      "date": "2024-08-22T17:16:02.190Z",
+      "useFor": "other"
+    },
+    {
+      "id": "8c2b",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-08-22T17:16:02.190Z",
+      "useFor": "other"
+    },
+    {
+      "id": "fb2b",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-08-22T17:21:16.483Z",
+      "useFor": "other"
+    },
+    {
+      "id": "f434",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "8655",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "eb6c",
+      "type": "income",
+      "money": 123,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "a016",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "c1e1",
+      "type": "income",
+      "money": 123,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "abc7",
+      "type": "income",
+      "money": 321,
+      "date": "2024-08-22T17:25:07.831Z",
+      "useFor": "other"
+    },
+    {
+      "id": "aa6b",
+      "type": "pay",
+      "money": -321,
+      "date": "2024-08-22T17:29:56.348Z",
+      "useFor": "other"
+    },
+    {
+      "id": "cde9",
+      "type": "income",
+      "money": 111,
+      "date": "2024-08-22T17:30:02.269Z",
+      "useFor": "other"
+    },
+    {
+      "id": "b0d0",
+      "type": "pay",
+      "money": -321,
+      "date": "2024-08-22T17:32:23.261Z",
+      "useFor": "drinks"
+    },
+    {
+      "id": "6222",
+      "type": "pay",
+      "money": 0,
+      "date": "2024-08-22T17:33:14.046Z",
+      "useFor": "other"
+    },
+    {
+      "id": "d5fa",
+      "type": "pay",
+      "money": 0,
+      "date": "2024-08-22T17:33:38.268Z",
+      "useFor": "other"
+    }
+  ]
+}

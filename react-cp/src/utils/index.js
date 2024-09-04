@@ -2,7 +2,11 @@
 // import { request } form '@/utils'
 
 import { request } from './request'
+import {getBasicAuth, setBasicAuth, removeBasicAuth} from "@/utils/basicAuth";
 
 export {
-    request
+    request,
+    getBasicAuth,
+    setBasicAuth,
+    removeBasicAuth
 }

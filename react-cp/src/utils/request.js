@@ -1,18 +1,26 @@
 // axios 的封装处理
 import axios from "axios"
+import {getBasicAuth} from "@/utils/basicAuth";
 
 // 1. 根域名配置
 // 2. 超时时间
 // 3. 请求拦截器 / 相应拦截器
 
 const request = axios.create({
-    baseURL: "http://geek.itheima.net/v1_0",
+    baseURL: "https://localhost:5001/webapi",
     timeout: 5000
 })
 
 // 添加请求拦截器
 // 请求发送之前 做拦截 插入一些自定义的配置 [参数的处理]
 request.interceptors.request.use((config) => {
+    // 操作这个 config，注入 basicAuth 数据
+    // 1. 获取 basicAuth
+    // 2. 按照后端的数据要求做 basicAuth
+    const basicAuth = getBasicAuth()
+    if (basicAuth) {
+        config.headers.Authorization = basicAuth
+    }
     return config
 }, (error) => {
     return Promise.reject(error)

@@ -300,6 +300,13 @@
       "money": 0,
       "date": "2024-08-22T17:33:38.268Z",
       "useFor": "other"
+    },
+    {
+      "id": "9e43",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-09-03T05:40:41.337Z",
+      "useFor": "other"
     }
   ]
 }

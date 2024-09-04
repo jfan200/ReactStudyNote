@@ -2,14 +2,14 @@
 import Layout from "@/pages/Layout";
 import Login from "@/pages/Login";
 import {createBrowserRouter} from "react-router-dom";
-
+import { AuthRoute } from "@/component/AuthRoute";
 
 // 配置路由实例
 const router = createBrowserRouter(
     [
         {
             path: "/",
-            element: <Layout />
+            element:<AuthRoute> <Layout/> </AuthRoute>
         },
         {
             path: "/login",

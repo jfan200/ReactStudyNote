@@ -9,7 +9,7 @@ function getBasicAuth() {
 }
 
 function removeBasicAuth() {
-    sessionStorage.removeItem(BASICAUTH)
+    sessionStorage.removeItem()
 }
 
 export {

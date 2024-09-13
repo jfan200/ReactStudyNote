@@ -1,0 +1,73 @@
+@import "../../index.scss";
+
+.ant-layout {
+  height: 100%;
+}
+
+.globalHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f2f5;
+  padding: 0 20px;
+  height: 64px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .leftSection {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      height: 50px;
+    }
+  }
+
+  .rightSection {
+    display: flex;
+    align-items: center;
+
+    .notificationIcon {
+      font-size: 24px;
+      color: $theme-color1;
+      cursor: pointer;
+    }
+
+    .userSection {
+      margin-left: 40px;
+      display: flex;
+      align-items: center;
+
+      .username {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+
+      .logout {
+        color: #ff4d4f;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.sideBar {
+  top: 64px;
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 64px); /* 内容区域高度 */
+  position: fixed;
+  background-color: $theme-color1;
+}
+

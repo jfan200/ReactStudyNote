@@ -13,4 +13,3 @@ jobs:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   github_pr_id: ${{ github.event.number }}
                   files: "*.cs, *.js, *.json, *.md"
-                  openai_model: "gpt-4-turbo"

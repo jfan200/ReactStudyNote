@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import { uploadFileToS3 } from './utils/s3Upload';  // 引入上传文件的封装方法
+import { uploadFileToS3 } from './utils/s3Upload';
 
 const App = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [message, setMessage] = useState('');
     const [uploadedImageUrl, setUploadedImageUrl] = useState('');
 
-    // 处理文件选择
     const handleFileChange = (e) => {
         if (e.target.files) {
             setSelectedFile(e.target.files[0]);
         }
-        setMessage(''); // 清空消息提示
-        setUploadedImageUrl(''); // 清空上传图片 URL
+        setMessage('');
+        setUploadedImageUrl('');
     };
 
-    // 调用封装的 handleUpload 方法
     const handleUpload = () => {
         uploadFileToS3(selectedFile, setMessage, setUploadedImageUrl);
     };

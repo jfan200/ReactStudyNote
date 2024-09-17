@@ -1,7 +1,8 @@
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
-// 定义上传文件到 S3 的方法
 export const uploadFileToS3 = async (selectedFile, setMessage, setUploadedImageUrl) => {
+
+
 
     const s3Client = new S3Client({
         region: AWS_REGION,

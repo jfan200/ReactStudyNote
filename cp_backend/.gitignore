@@ -1,0 +1,45 @@
+# Node modules
+cp_web_frontend/node_modules/
+cp_native_frontend/node_modules/
+cp_backend/bin/
+cp_backend/obj/
+
+# production
+cp_native_frontend/build/
+cp_web_fronted/build/
+cp_backend/bin/Release/
+cp_backend/bin/Debug/
+cp_backend/obj/Release/
+cp_backend/obj/Debug/
+
+# Logs
+cp_native_frontend/npm-debug.log*
+cp_native_frontend/yarn-debug.log*
+cp_native_frontend/yarn-error.log*
+
+cp_web_fronted/npm-debug.log*
+cp_web_fronted/yarn-debug.log*
+cp_web_fronted/yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# WebStorm project files
+.idea/
+
+# ignore other IDE configure file
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# dotenv environment variables file
+.env
